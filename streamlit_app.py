@@ -211,16 +211,13 @@ with st.sidebar:
     <div class="sidebar-info">
         <p><strong>Versión:</strong> 1.0</p>
         <p><strong>Grupo 3:</p>
-        <p></strong> Daniela Solano Restrepo - 2024125604</p>
+        <p></strong> Daniela Solano Restrepo - 202425604</p>
         <p></strong> Juan Esteban Sarmiento - 202013623</p>
-        <p></strong> antiago Guerrero - 202223083</p>
+        <p></strong> Santiago Guerrero - 202223083</p>
                 
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown("---")
-    st.markdown("##### 💡 ¿Necesitas ayuda?")
-    st.markdown("Contacta al equipo de soporte")
 
 # ============== CONTENIDO PRINCIPAL ==============
 
