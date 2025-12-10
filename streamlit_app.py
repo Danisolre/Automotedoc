@@ -414,9 +414,9 @@ else:
         with col1:
             st.markdown("**Ejemplo de Excel:**")
             ejemplo_df = pd.DataFrame({
-                "Descripción": ["objeto", "objeto"],
-                "Dependencia": ["GEP", "GGC"],
-                "fecha": ["2024-01-15", "2024-01-16"]
+                "descripción": ["objeto", "objeto"],
+                "dependencia": ["GEP", "GGC"],
+                "plazo": ["2024-01-15", "2024-01-16"]
             })
             st.dataframe(ejemplo_df, use_container_width=True)
         
