@@ -423,9 +423,9 @@ else:
         with col2:
             st.markdown("**Ejemplo de Plantilla:**")
             st.code("""
-Certificado de Trabajo
+Estudio previo o Minuta
 
-Certificamos que {{nombre}} 
-desempeña el cargo de {{cargo}}
-desde el {{fecha}}.
+Atenea ... {{descripción}} 
+Requiere la prestación para {{dependencia}}
+desde el {{plazo}}.
             """)
