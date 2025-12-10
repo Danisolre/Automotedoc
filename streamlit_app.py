@@ -9,7 +9,7 @@ import time
 
 # ============== CONFIGURACIÓN DE PÁGINA ==============
 st.set_page_config(
-    page_title="🤓",
+    page_title="Generador Estudios Previos y Minutas",
     page_icon="Generador de Documentos",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -210,10 +210,8 @@ with st.sidebar:
     st.markdown("""
     <div class="sidebar-info">
         <p><strong>Versión:</strong> 1.0</p>
-        <p><strong>Grupo 3:</p>
-        <p></strong> Daniela Solano Restrepo - 202425604</p>
-        <p></strong> Juan Esteban Sarmiento - 202013623</p>
-        <p></strong> Santiago Guerrero - 202223083</p>
+        <p><strong>Grencia de Gestión Corporativa</p>
+    
                 
     </div>
     """, unsafe_allow_html=True)
@@ -224,8 +222,8 @@ with st.sidebar:
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1 class="main-title">🤓 Generador Inteligente de Documentos</h1>
-    <p class="subtitle">Taller 4 Python | Grupo 3</p>
+    <h1 class="main-title"> Generador Inteligente de Documentos</h1>
+    <p class="subtitle">Estudios Previos y Minutas | Gerencia Gestión Corporativa</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -416,8 +414,8 @@ else:
         with col1:
             st.markdown("**Ejemplo de Excel:**")
             ejemplo_df = pd.DataFrame({
-                "nombre": ["Juan Pérez", "María García"],
-                "cargo": ["Analista", "Coordinadora"],
+                "Descripción": ["objeto", "objeto"],
+                "Dependencia": ["GEP", "GGC"],
                 "fecha": ["2024-01-15", "2024-01-16"]
             })
             st.dataframe(ejemplo_df, use_container_width=True)
