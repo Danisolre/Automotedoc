@@ -223,7 +223,7 @@ with st.sidebar:
 st.markdown("""
 <div class="main-header">
     <h1 class="main-title" style="color: white;">Generador Inteligente de Documentos</h1>
-    <p class="subtitle">Estudios Previos y Minutas | Geh1rencia Gestión Corporativa</p>
+    <p class="subtitle">Estudios Previos y Minutas | Gerencia de Gestión Corporativa</p>
 </div>
 """, unsafe_allow_html=True)
 
