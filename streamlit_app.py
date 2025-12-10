@@ -222,7 +222,7 @@ with st.sidebar:
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1 class="main-title" style="color: white;">Generador Inteligente de Documentos</h1>
+    <h1 class="main-title" style="color: white;">ATENEA: Generador Inteligente de Documentos</h1>
     <p class="subtitle">Estudios Previos y Minutas | Gerencia de Gestión Corporativa</p>
 </div>
 """, unsafe_allow_html=True)
