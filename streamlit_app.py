@@ -9,7 +9,7 @@ import time
 
 # ============== CONFIGURACIÓN DE PÁGINA ==============
 st.set_page_config(
-    page_title="Generador Estudios Previos y Minutas",
+    page_title="ATENEA: Generador Estudios Previos y Minutas",
     page_icon="Generador de Documentos",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -222,8 +222,8 @@ with st.sidebar:
 # Header
 st.markdown("""
 <div class="main-header">
-    <h1 class="main-title"> Generador Inteligente de Documentos</h1>
-    <p class="subtitle">Estudios Previos y Minutas | Gerencia Gestión Corporativa</p>
+    <h1 class="main-title" style="color: white;">Generador Inteligente de Documentos</h1>
+    <p class="subtitle">Estudios Previos y Minutas | Geh1rencia Gestión Corporativa</p>
 </div>
 """, unsafe_allow_html=True)
 
