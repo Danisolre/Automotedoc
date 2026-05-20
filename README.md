@@ -102,24 +102,6 @@ automotedoc/
 
 ---
 
-## Equipo - Grupo 3
-
-| Nombre | Código |
-|--------|--------|
-| Daniela Solano Restrepo | 202425604 |
-| Juan Esteban Sarmiento | 202013623 |
-| Santiago Guerrero | 202223083 |
-
-**Taller 4 - Python para Economía Aplicada**
-
----
-
-## Licencia
-
-MIT License - Libre para uso educativo.
-
----
-
 ## Enlaces útiles
 
 - [Documentación python-docx](https://python-docx.readthedocs.io/)
